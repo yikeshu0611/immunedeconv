@@ -30,6 +30,7 @@ build:
 # Suggests: testthat, knitr, rmarkdown, shiny
 requirements:
   build:
+    - r-rcpp =0.12.16
     - r-devtools >=1.13
     - r-base >=3.4.1
     - r-dplyr >=0.7.4
@@ -48,6 +49,7 @@ requirements:
     - r-roxygen2 =6.0.1
 
   run:
+    - r-rcpp =0.12.16
     # - r-devtools >=1.13
     - r-base >=3.4.1
     - r-dplyr >=0.7.4
