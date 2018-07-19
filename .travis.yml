@@ -2,7 +2,7 @@
 
 language: r
 r:
-  - bioc-devel
+  # - bioc-devel
   - bioc-release
 
 r_github_packages:
