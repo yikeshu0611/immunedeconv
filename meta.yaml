@@ -30,30 +30,22 @@ build:
 # Suggests: testthat, knitr, rmarkdown, shiny
 requirements:
   build:
-    - r-devtools =1.13
-    - r-base =3.4.1
-    - r-dplyr =0.7
-    - r-magrittr =1.5
-    - r-readr =1.1
-    - r-readxl =1.0
-    - r-testit =0.7
-    - r-r.methodss3 =1.7
-    - r-data.tree =0.7
-    - r-e1071 =1.6
-    - bioconductor-biocinstaller =1.28.0
-    - bioconductor-biobase =2.38
-    - bioconductor-preprocesscore =1.40
-    - bioconductor-gsva =1.26
-    - bioconductor-sva =3.26
-    - bioconductor-gseabase =1.40
-    - r-xcell =1.12
-    - r-epic =1.1
-    - r-mcpcounter =a79614e
+    - r-devtools >=1.13
+    - r-base >=3.4.1
+    # - r-dplyr >=0.7
+    - r-magrittr >=1.5
+    - r-readr >=1.1
+    - r-readxl >=1.0
+    - r-testit >=0.7
+    - r-r.methodss3 >=1.7
+    # - r-data.tree >=0.7
+    # - r-e1071 >=1.6
+    # - r-xcell >=1.12
+    # - r-epic >=1.1
+    # - r-mcpcounter
+    # - r-roxygen2 >=6.0.1
+    # - r-limsolve >=1.5.5.3
     - r-roxygen2 =6.0.1
-    - r-limsolve =1.5.5.3
-    - posix               # [win]
-    - {{native}}toolchain # [win]
-    - gcc                 # [not win]
 
   run:
     # - r-devtools >=1.13
