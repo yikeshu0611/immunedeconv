@@ -53,7 +53,7 @@ requirements:
     - r-limsolve =1.5.5.3
     - posix               # [win]
     - {{native}}toolchain # [win]
-      #    - gcc                 # [not win]
+    - gcc                 # [not win]
 
   run:
     - r-devtools >=1.13
@@ -78,6 +78,9 @@ requirements:
     - r-roxygen2 >=6.0.1
     - r-limsolve >=1.5.5.3
     - r-rcpp =0.12.11
+    - gcc
+    - libgcc
+    - r-bindrcpp
 
 test:
   commands:
