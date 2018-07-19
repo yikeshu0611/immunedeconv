@@ -5,14 +5,12 @@ Version: 0.1
 Authors@R: person("Gregor", "Sturm", role=c("aut", "cre"), email="mail@gregor-sturm.de")
 Depends: R (>= 3.4)
 Imports:
-    dplyr (>= 0.7),
     magrittr (>= 1.5),
     readr (>= 1.1),
     readxl (>= 1.0),
     testit (>= 0.7),
     tibble (>= 1.4.2),
     methods (>= 3.4),
-    data.tree (>= 0.7)
 Suggests:
     testthat,
     knitr,
