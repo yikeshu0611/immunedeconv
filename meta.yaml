@@ -75,7 +75,7 @@ requirements:
     # - r-xcell >=1.12
     # - r-epic >=1.1
     # - r-mcpcounter
-     - r-roxygen2 >=6.0.1
+    - r-roxygen2 >=6.0.1
     # - r-limsolve >=1.5.5.3
 
 
