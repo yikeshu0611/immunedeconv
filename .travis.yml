@@ -30,7 +30,7 @@ install:
 
 script:
   # Test conda package
-  - conda build .
+  - travis_wait 30 conda build .
   - conda install --use-local r-immunedeconv
 
 sudo: false
