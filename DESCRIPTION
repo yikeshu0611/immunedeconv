@@ -12,28 +12,12 @@ Imports:
     testit (>= 0.7),
     tibble (>= 1.4.2),
     methods (>= 3.4),
-    data.tree (>= 0.7),
-    BiocInstaller,
-    preprocessCore,
-    Biobase,
-    GSVA,
-    sva,
-    GSEABase
+    data.tree (>= 0.7)
 Suggests:
     testthat,
     knitr,
     rmarkdown,
     pkgdown
-Remotes:
-    bioc::BiocInstaller,
-    bioc::preprocessCore,
-    bioc::Biobase,
-    bioc::GSVA,
-    bioc::sva,
-    bioc::GSEABase,
-    dviraran/xCell,
-    GfellerLab/EPIC,
-    ebecht/MCPcounter/Source
 VignetteBuilder: knitr
 License: CC-BY-4.0
 Encoding: UTF-8
