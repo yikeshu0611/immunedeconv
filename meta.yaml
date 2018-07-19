@@ -77,6 +77,7 @@ requirements:
     - r-mcpcounter
     - r-roxygen2 >=6.0.1
     - r-limsolve >=1.5.5.3
+    - r-rcpp =0.12.11
 
 test:
   commands:
