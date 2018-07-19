@@ -21,7 +21,7 @@ deconvolution_methods = c("mcp_counter", "epic", "quantiseq", "xcell", "cibersor
 #' This is a workaround, that `xCellAnalysis` can be properly called from this package. 
 #' 
 #' @export
-xCell.data = xCell::xCell.data
+# xCell.data = xCell::xCell.data
 
 #' set Path to CIBERSORT R script
 #'
