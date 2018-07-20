@@ -4,11 +4,7 @@
 mv DESCRIPTION DESCRIPTION.old
 grep -v '^Priority: ' DESCRIPTION.old > DESCRIPTION
 
+# force anaconda not to use system libraries
 echo ".libPaths(.Library)" > $("$R"script -e "cat(R.home())")/etc/Rprofile.site
 $R CMD INSTALL --build .
 
-# Add more build steps here, if they are necessary.
-
-# See
-# http://docs.continuum.io/conda/build.html
-# for a list of environment variables that are set during the build process.
