@@ -4,6 +4,7 @@
 mv DESCRIPTION DESCRIPTION.old
 grep -v '^Priority: ' DESCRIPTION.old > DESCRIPTION
 
+echo ".libPaths(.Library)" > $("$R"script -e "cat(R.home())")/etc/Rprofile.site
 $R CMD INSTALL --build .
 
 # Add more build steps here, if they are necessary.

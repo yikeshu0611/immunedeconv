@@ -28,9 +28,6 @@ install:
 
 script:
   # Test conda package
-  - which R
-  - source activate root
-  - which R
   - conda build .
   - conda install --use-local r-immunedeconv
 
