@@ -5,6 +5,6 @@ mv DESCRIPTION DESCRIPTION.old
 grep -v '^Priority: ' DESCRIPTION.old > DESCRIPTION
 
 # force anaconda not to use system libraries
-echo ".libPaths(.Library)" > $("$R"script -e "cat(R.home())")/etc/Rprofile.site
+echo ".libPaths(.Library)" > ".Rprofile"
 $R CMD INSTALL --build .
 
