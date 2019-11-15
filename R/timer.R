@@ -183,7 +183,7 @@ ConvertRownameToLoci <- function(cancerGeneExpression) {
 }
 
 ParseInputExpression <- function(path) {
-  ret <- read.csv(path, sep='\t')
+  ret <- readr::read_csv(path, sep='\t')
   ret <- as.matrix(ret)
   mode(ret) <- 'numeric'
   ret <- ConvertRownameToLoci(ret)
